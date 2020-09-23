@@ -2,10 +2,10 @@ const net = require('net');
 
 const connect = function () {
   const conn = net.createConnection({
-    //host: '192.168.0.139',
-    host: '10.0.2.15',
-    // port: 50542
-    port: 50541
+    host: '135.23.222.131',
+    //host: '10.0.2.15',
+    port: 50542
+    //port: 50541
   });
 
   conn.setEncoding('utf8');
